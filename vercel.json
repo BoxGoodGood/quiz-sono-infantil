@@ -1,8 +1,5 @@
 {
-  "buildCommand": "cd client && npm install && npm run build",
-  "outputDirectory": "client/dist",
-  "devCommand": "cd client && npm run dev",
-  "env": {
-    "VITE_APP_TITLE": "Quiz Sono Infantil"
-  }
+  "buildCommand": "npm install && npm run build",
+  "outputDirectory": "dist",
+  "devCommand": "npm run dev"
 }
